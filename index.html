@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naveen | My Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Naveen</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home"    class="nav-link">Home</a></li>
+        <li><a href="#about"   class="nav-link">About</a></li>
+        <li><a href="#skills"  class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-title">Naveen</h1>
+      <p class="hero-subtitle">B.Tech AI &amp; Data Science Student</p>
+      <p class="hero-description">
+        Passionate about Artificial Intelligence, Data Science, and emerging
+        technologies like Blockchain &amp; Crypto.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact"  class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-graphic" aria-hidden="true">
+      <div class="circle circle-lg"></div>
+      <div class="circle circle-md"></div>
+      <div class="circle circle-sm"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a motivated B.Tech student specializing in Artificial Intelligence
+            and Data Science. I enjoy building intelligent systems, analyzing data,
+            and exploring decentralized technologies.
+          </p>
+          <p>
+            When I'm not coding, you'll find me reading about the latest advancements
+            in machine learning or experimenting with personal projects that merge
+            AI with real-world problems.
+          </p>
+          <div class="about-info">
+            <div class="info-item"><span class="info-label">Degree</span><span>B.Tech – AI &amp; DS</span></div>
+            <div class="info-item"><span class="info-label">Focus</span><span>AI, Data Science, Blockchain</span></div>
+            <div class="info-item"><span class="info-label">Location</span><span>India</span></div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="avatar" aria-label="Naveen's profile picture placeholder">N</div>
+          <p class="about-card-text">Always learning. Always building.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🤖</div>
+          <h3>Machine Learning</h3>
+          <p>Python · scikit-learn · TensorFlow · Data modelling</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>Data Science</h3>
+          <p>Pandas · NumPy · Matplotlib · Statistical analysis</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>HTML · CSS · JavaScript · Responsive design</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🔗</div>
+          <h3>Blockchain &amp; Crypto</h3>
+          <p>Smart contracts · Web3 concepts · Decentralised apps</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🐍</div>
+          <h3>Python</h3>
+          <p>Core language · OOP · Libraries · Automation</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>Databases</h3>
+          <p>MySQL · SQLite · Basic query optimization</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-tag">Machine Learning</div>
+          <h3>Sentiment Analyser</h3>
+          <p>
+            NLP-based tool that classifies text sentiment using a trained
+            machine-learning model and a simple web interface.
+          </p>
+          <div class="project-tech">
+            <span>Python</span><span>scikit-learn</span><span>Flask</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">Data Science</div>
+          <h3>Crypto Price Dashboard</h3>
+          <p>
+            Real-time cryptocurrency price tracker with interactive charts,
+            portfolio summary, and price-change alerts.
+          </p>
+          <div class="project-tech">
+            <span>Python</span><span>Pandas</span><span>Plotly</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">Web</div>
+          <h3>My Website</h3>
+          <p>
+            This responsive personal website built with pure HTML, CSS, and
+            JavaScript — no frameworks required.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-wrapper">
+        <p class="contact-intro">
+          Have a project idea or just want to say hi? Fill in the form and I'll
+          get back to you as soon as possible.
+        </p>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Naveen. Built with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
